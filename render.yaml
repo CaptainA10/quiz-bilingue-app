@@ -9,6 +9,6 @@ services:
       - key: NODE_ENV
         value: production
       - key: ALLOWED_ORIGINS
-        value: https://captaina10.github.io
+        value: https://captaina10.github.io,http://localhost:5173
       - key: GROQ_API_KEY
         sync: false
