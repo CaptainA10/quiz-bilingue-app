@@ -1,0 +1,23 @@
+{
+  "name": "quiz-bilingue-app",
+  "version": "1.0.0",
+  "description": "Application web intelligente pour générer des quiz bilingues interactifs à partir de documents texte, PDF, Word et autres formats. Utilise l'IA Groq pour créer des questions personnalisées automatiquement.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaptainA10/quiz-bilingue-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaptainA10/quiz-bilingue-app/issues"
+  },
+  "homepage": "https://github.com/CaptainA10/quiz-bilingue-app#readme",
+  "dependencies": {
+    "nodemailer": "^7.0.11"
+  }
+}
