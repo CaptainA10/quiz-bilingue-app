@@ -1,0 +1,26 @@
+/* Reset et styles de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+  background-color: #6200ee;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #3700b3;
+}

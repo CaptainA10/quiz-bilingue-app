@@ -1,0 +1,23 @@
+{
+  "name": "quiz-bilingue-backend",
+  "version": "1.0.0",
+  "description": "Backend du générateur de quiz bilingue",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
